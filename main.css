@@ -1,0 +1,59 @@
+:root{
+    --primary-color:#0BE5F7;
+    --secondary-color:white;
+}
+body{
+    text-align: center;
+    background-color: var(--primary-color);
+    font-style: italic;
+}
+
+nav{
+    font-size: 70px;
+}
+.text-area{
+    max-width: 550px;
+    width: 60%;
+    height: 26vh;
+    box-sizing: border-box;
+    border: 0.3rem solid;
+    margin: 18px 0px;
+    
+}
+#output-text-area{
+    
+    
+    max-width: 550px;
+    overflow:scroll;
+    height: 22vh;
+    box-sizing: border-box;;
+    background-color:var(--secondary-color);
+    margin: auto;
+    text-align: left;
+    
+}
+
+#button-to-translate{
+    background-color: var(--primary-color);
+    color: black;
+    height: 50px;
+    width: 220px;
+    border-radius: 0.2rem;
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+footer {
+    text-align:center;
+    background-color: var(--primary-color);
+    height: 70px;
+    padding: 2rem 0rem;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+
+}
+footer p{
+    margin: auto;
+    max-width: 550px;
+}
